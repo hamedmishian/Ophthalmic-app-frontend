@@ -1,0 +1,10 @@
+{
+  "name": "medical-dashboard-docker",
+  "description": "Simple Docker commands for the medical dashboard",
+  "scripts": {
+    "docker:build": "docker build -t medical-dashboard .",
+    "docker:run": "docker run -p 3000:3000 medical-dashboard",
+    "docker:compose": "docker-compose up -d",
+    "docker:stop": "docker-compose down"
+  }
+}

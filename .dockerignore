@@ -1,0 +1,26 @@
+# Dependencies
+node_modules
+npm-debug.log*
+
+# Environment files
+.env*
+
+# Next.js
+.next/
+out/
+
+# Development files
+.git
+.gitignore
+README.md
+.vscode
+.idea
+
+# Docker files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Misc
+.DS_Store
+*.log
