@@ -69,7 +69,7 @@ type ViewType = "cards" | "table" | "list"
 export default function PatientList() {
   const [searchTerm, setSearchTerm] = useState("")
   const [filterStatus, setFilterStatus] = useState<"all" | "active" | "inactive">("all")
-  const [viewType, setViewType] = useState<ViewType>("cards")
+  const [viewType, setViewType] = useState<ViewType>("table")
 
   const filteredPatients = patients.filter((patient) => {
     const matchesSearch =
